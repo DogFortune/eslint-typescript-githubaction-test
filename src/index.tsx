@@ -1,5 +1,5 @@
 try {
     throw new Error("error");
-} catch (e: any) {
+} catch (e: unknown) {
     console.error(e);
 }
