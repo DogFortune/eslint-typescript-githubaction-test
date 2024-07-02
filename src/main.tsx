@@ -8,3 +8,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <App />
   </React.StrictMode>,
 )
+
+try{
+  console.log("hello")
+}catch(e: any){
+  console.error("error")
+}
