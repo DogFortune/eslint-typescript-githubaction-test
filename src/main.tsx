@@ -11,6 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 
 try{
   console.log("hello")
-}catch(e: any){
+}catch(e: unknown){
   console.error("error")
 }
